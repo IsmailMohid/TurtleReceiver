@@ -134,7 +134,7 @@ void loop() {
 #include <Arduino.h>
 #include "TurtleReceiver.h"
 
-NetController controller(true); // debug = on
+NetController controller(); // debug messages off by default
 
 void setup() {
   Serial.begin(115200);
