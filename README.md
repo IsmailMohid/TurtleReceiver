@@ -126,7 +126,7 @@ void loop() {
 
 | Function                                 | Description                                                           |
 |------------------------------------------|-----------------------------------------------------------------------|
-| `void printMacAddress()`                 | Prints the ESP32’s station MAC address to `Serial`.                   |
+| `void printMacAddress()`                 | Prints the ESP32’s station MAC address to the serial monitor.         |
 
 ---
 
