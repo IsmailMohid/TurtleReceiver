@@ -54,7 +54,7 @@ Provides easy-to-use functions to receive controller input (joystick axes, butto
 2. Include `TurtleReceiver.h` in your sketch:
 
     ```cpp
-    #include "TurtleReceiver.h"
+    #include <TurtleReceiver.h>
     ```
 
 ---
@@ -66,7 +66,7 @@ Provides easy-to-use functions to receive controller input (joystick axes, butto
 1. In your `setup()` function, initialize Serial (if using debug) and the receiver:
 
     ```cpp
-    #include "TurtleReceiver.h"
+    #include <TurtleReceiver.h>
 
     // Enable debug messages? true = on, false = off  NOTE: this will flood your monitor with messages. Only enable if truly necessary.
     NetController controller(/* displayDebugMessage = */ true);
@@ -132,7 +132,7 @@ void loop() {
 ## Example Sketch
 ```cpp
 #include <Arduino.h>
-#include "TurtleReceiver.h"
+#include <TurtleReceiver.h>
 
 NetController controller(); // debug messages off by default
 
