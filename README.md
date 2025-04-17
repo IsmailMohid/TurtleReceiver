@@ -16,7 +16,6 @@ Provides easy-to-use functions to receive controller input (joystick axes, butto
   - [Reading Inputs](#reading-inputs)  
 - [API Reference](#api-reference)  
 - [Example Sketch](#example-sketch)  
-- [License](#license)  
 
 ---
 
@@ -168,5 +167,4 @@ void loop() {
 
 ---
 
-## License
-This project is released under the MIT License. 
+
